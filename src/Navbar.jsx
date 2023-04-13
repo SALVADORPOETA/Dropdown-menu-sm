@@ -356,7 +356,7 @@ const Navbar = () => {
                         ? 'fixed left-0 top-0 w[75%] sm:w-[60%] md:w-[45%] h-screen bg-gray-900 p-10 ease-in duration-500 z-10' 
                         : 'fixed left-[-100%] top-0 h-screen p-10 ease-in duration-500 z-10'} >
                 <div>
-                    <div className='flex w-full items-center justify-between' >
+                    <div className='flex w-full items-center justify-end' >
                         <div 
                             onClick={handleNav} 
                             className='rounded-full shadow-lg shadow-[#00df9a] p-3 cursor-pointer' >
